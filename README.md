@@ -1,23 +1,25 @@
 # Smile Detection System 😊
 
-A real-time smile detection system using Python and OpenCV.
+A real-time computer vision project that detects human smiles using Python and OpenCV.
 
-## One-Click Run (Local Machine)
+## Overview
+This project uses Haar Cascade classifiers to detect faces and smiles in real time through a webcam.
+The system is optimized for low latency and improved accuracy by focusing on the lower facial region.
 
-### Requirements
-- Python 3.x
-- Webcam
-
-### Install Dependencies
-pip install opencv-python
-
-### Run the Project
-python smile_detection.py
-
-## Features
+## Key Features
+- Real-time face and smile detection
+- Optimized frame processing to reduce lag
 - Fast camera initialization
-- Optimized face and smile detection
-- Low latency webcam processing
+- Webcam-based execution
+
+## Tech Stack
+- Python
+- OpenCV
+- Haar Cascade Classifiers
+
+## How to Run
+pip install opencv-python  
+python smile_detection.py
 
 ## Controls
 - Press `q` or `ESC` to exit
